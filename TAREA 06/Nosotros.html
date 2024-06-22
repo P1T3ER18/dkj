@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 1px;
+            padding: auto;
+        }
+      
+        body{
+            width: 100%;
+            height: auto;
+            border: solid black 2px;
+            border-radius: 10px;
+            height: 100%;
+            
+        }
+        .contenedor{
+            display: grid;
+            grid-template-areas: 'header header header' 'main aside meni'
+            ' footer footer footer' ;
+            grid-template-columns: auto auto auto ;
+            grid-template-rows: auto auto auto;
+            color: grey;
+        }
+        .contenedor div{
+            background-color: white;
+            border: solid 1px black;
+        }
+        .z1{
+            grid-area: header;
+            text-align: center;
+            border-radius: 10px;
+            color: maroon;
+        }
+        .z2{
+            grid-area: main aside;
+            width: 100%;
+            columns: 2;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .z4{
+            grid-area: meni;
+            
+        }
+        .last{
+            border-radius: 10px;
+        }
+        .z5{
+            grid-area: footer;
+            text-align: center;
+            border-radius: 5px;
+            color: maroon;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="cabecera">
+        <h1>LIBROS EN EL BREAK</h1>
+        <div id="menu">
+          <ul>
+             </i><li ><i class="fa-solid fa-book"></i><a href="index.html"></a>INICIO</li>
+             <li><i class="fa-solid fa-video"></i><a href="blog.html"></a>BLOG</li>
+             <li><i class="fa-solid fa-camera-retro"></i><a href="galeria.html"></a>GALERIA</li>
+             <li><i class="fa-solid fa-clapperboard"></i><a href="video.html"></a>VIDEOS</li>
+             <li><i class="fa-solid fa-address-card"></i><a href="contactos.html"></a>CONTACTOS</li>
+             <li><i class="fa-solid fa-person-rays"></i><a href="Nosotros.html"></a>NOSOTROS</li>
+             
+          </ul>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="contenedor">
+        <div class="z1">
+            <h1>NOSOTROS</h1>
+        </div>
+        <div class="z2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sint sunt dolorem quo nam nemo dolor cum, accusantium alias esse ipsam, autem optio soluta. Doloremque magni tenetur a blanditiis tempore, voluptatum fugit delectus itaque esse nostrum laboriosam deserunt debitis aspernatur ratione voluptates officiis distinctio dolor corporis rem reiciendis! Vero, nostrum?
+            <img src="img/249a74d36d6f3d9830951cb56ce712b1.jpg" width="250px" alt="">
+            </p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore incidunt, labore sunt, aliquid non veniam nam soluta impedit hic quidem reprehenderit. Vitae corporis quis ipsam similique deserunt doloribus soluta reprehenderit quibusdam ipsum ullam, fugit eaque quaerat exercitationem, placeat rerum ut tempore quas atque cum adipisci repudiandae, perferendis obcaecati ducimus labore! Neque velit aspernatur perferendis totam ipsa perspiciatis. Ducimus quasi neque libero rem, amet temporibus quis fuga? Tenetur, sint fuga.
+            </p>
+            
+
+            
+
+        </div>
+        
+        <div class="z4">
+            <img class="last" src="img/2254a5ed46e94d3f35e3e9be48dbbc4c.jpg" width="200px" height="500px" alt="">
+        </div>
+        <div class="z5">
+            Copyrigth 2024-todos los derechos reservados
+        </div>
+        
+
+    </div>
+</body>
+</html>
+    
+  
